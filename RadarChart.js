@@ -7,7 +7,7 @@
 //
 //For a bit of extra information check the blog about it:
 //http://nbremer.blogspot.nl/2013/09/making-d3-radar-chart-look-bit-better.html
-
+<script>
 var RadarChart = {
   draw: function(id, d, options){
   var cfg = {
@@ -219,3 +219,4 @@ var RadarChart = {
 			   .style('font-size', '13px');
   }
 };
+</script>
