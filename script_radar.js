@@ -1,4 +1,4 @@
-<script>
+
 var w = 500,
 	h = 500;
 
@@ -120,4 +120,3 @@ var legend = svg.append("g")
 	  .attr("fill", "#737373")
 	  .text(function(d) { return d; })
 	  ;
-</script>
