@@ -48,8 +48,8 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var url = "http://sentifine.me:3001/api/finnew";
-d3.json(url, function(error, flare) {
+//var url = "http://sentifine.me:3001/api/finnew";
+d3.json("flare_finnew.json", function(error, flare) {
   if (error) throw error;
 
   root = flare;
